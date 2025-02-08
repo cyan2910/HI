@@ -1,0 +1,133 @@
+/* 重置样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5A81DA;
+    color: #333;
+}
+
+
+main {
+    padding: 20px 17px 70px 17px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}
+
+.content-section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+
+footer {
+    background-color: white;
+    padding: 10px 0 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -7px 7px 0px rgba(0, 0, 0, 0.30)
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+}
+.content-section{
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.30);
+}
+
+/* 标题 */
+.top .text {
+    color: #FFF;
+    line-height: 26px;
+    font-weight: 900;
+    padding: 0px;
+    width: auto;
+}
+
+.top img {
+    width: 26px;
+    height: 26px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-sizing: border-box;
+    margin: 20px auto 0px auto;
+}
+footer a{
+    color: rgba(128, 128, 128, 0.8);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+#nowpage{
+    color:black
+    
+}
+.text{
+    text-align: left;
+}
+.text1{
+    text-align: center;
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+line-height: 22px; /* 146.667% */
+padding: 5px 0px;
+}
+.text2{
+    color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 900;
+line-height: 22px; /* 183.333% */
+}
+.text3{
+    color: #808080;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0px 0px 5px 0px;
+}
+.subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    width: 100%;
+    padding: 10px 0px;
+}
+.skill_img{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0px;
+
+}
