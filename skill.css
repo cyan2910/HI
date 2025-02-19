@@ -155,3 +155,34 @@ padding: 0px 0px 5px 0px;
 }
 
 
+.fade{
+    opacity: 0; /* 初始透明度为 0，即隐藏元素 */
+    transition: opacity 1s ease-in-out; /* 添加过渡效果，使透明度变化更平滑 */
+}
+.visible{
+    opacity: 1;
+}
+/* 初始状态：元素在左侧外部 */
+.slide-from-left {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s ease-in-out; /* 动画持续时间和速度曲线 */
+  }
+  
+  /* 激活状态：元素滑动到视图中 */
+  .slide-from-left.active {
+    opacity: 1;
+    transform: translateX(0); /* 元素进入视图 */
+  }
+  
+  /* 对于从右侧滑入的元素，只需调整transform的方向 */
+  .slide-from-right {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+  
+  .slide-from-right.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
